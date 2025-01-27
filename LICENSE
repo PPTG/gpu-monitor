@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 [PPTG]
+Copyright (c) 2024 [Twoje Imię]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,37 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-------------------------------------------------------------------------------
+
+This project incorporates components from other open source projects:
+
+1. Flask (BSD License)
+   Copyright (c) 2010 by the Pallets team.
+   https://flask.palletsprojects.com/
+
+2. Chart.js (MIT License)
+   Copyright (c) 2014-present Chart.js Contributors
+   https://www.chartjs.org/
+
+3. Font Awesome Free (MIT License)
+   Copyright (c) Fonticons, Inc.
+   https://fontawesome.com/
+
+4. NVIDIA Container Toolkit (Apache License 2.0)
+   Copyright (c) 2019, NVIDIA CORPORATION
+   https://github.com/NVIDIA/nvidia-docker
+
+-------------------------------------------------------------------------------
+
+NVIDIA Driver and NVIDIA System Management Interface (nvidia-smi) Notice:
+This software uses NVIDIA System Management Interface (nvidia-smi) which is part 
+of the NVIDIA Display Driver. The use of nvidia-smi is subject to the NVIDIA 
+Driver License Agreement. Users must have a valid NVIDIA driver installation 
+and comply with the NVIDIA Driver License Agreement.
+
+-------------------------------------------------------------------------------
+
+Note: The above copyright notices and this permission notice shall be included 
+in all copies or substantial portions of the Software. Each component retains 
+its original license, and users must comply with all applicable license terms.
