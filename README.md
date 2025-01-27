@@ -185,7 +185,9 @@ docker run --gpus all -p 5000:5000 gpu-monitor
   - Vanilla JavaScript
 
 ## License / Licencja
-MIT License
+
+MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - zobacz plik [LICENSE](LICENSE) dla szczegółów.
 
 ## Contributing / Rozwój projektu
 
