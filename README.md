@@ -187,6 +187,19 @@ docker run --gpus all -p 5000:5000 gpu-monitor
 ## License / Licencja
 MIT License
 
+## Contributing / Rozwój projektu
+
+Issues and pull requests are welcome! Feel free to:
+1. Open an Issue
+2. Create a Pull Request
+3. Contact the authors
+
+Propozycje zmian i zgłoszenia błędów są mile widziane! Możesz:
+1. Otworzyć Issue
+2. Utworzyć Pull Request
+3. Skontaktować się z autorami
+
+
 ## Acknowledgments / Podziękowania
 
 This project uses the following open source packages:
@@ -201,14 +214,3 @@ For GPU monitoring, this software uses NVIDIA System Management Interface (nvidi
 
 Do monitorowania GPU, oprogramowanie wykorzystuje NVIDIA System Management Interface (nvidia-smi), który jest częścią sterownika NVIDIA Display Driver. Użycie nvidia-smi podlega licencji sterownika NVIDIA.
 
-## Contributing / Rozwój projektu
-
-Issues and pull requests are welcome! Feel free to:
-1. Open an Issue
-2. Create a Pull Request
-3. Contact the authors
-
-Propozycje zmian i zgłoszenia błędów są mile widziane! Możesz:
-1. Otworzyć Issue
-2. Utworzyć Pull Request
-3. Skontaktować się z autorami
