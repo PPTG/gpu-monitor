@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor GPU</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <h1>Monitor GPU</h1>
+
+    <!-- Przycisk ustawień -->
+    <div class="settings-button" onclick="toggleSettings()">
+        <i class="fas fa-cog"></i>
+    </div>
+
+    <!-- Panel ustawień -->
+    <div class="settings-panel" id="settingsPanel">
+        <div class="settings-grid">
+            <div class="settings-group">
+                <div class="settings-title">Parametry kart</div>
+                <div class="checkbox-container">
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked data-param="temperature"> Temperatura
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked data-param="power"> Moc
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked data-param="utilization"> Wykorzystanie
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked data-param="memory"> Pamięć
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked data-param="pcie"> PCIe
+                    </label>
+                </div>
+            </div>
+            <div class="settings-group">
+                <div class="settings-title">Wykresy</div>
+                <div class="checkbox-container">
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked data-chart="power"> Wykres mocy
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked data-chart="utilization"> Wykres wykorzystania
+                    </label>
+                </div>
+                <select class="chart-selector" id="chartTimeRange">
+                    <option value="20">Ostatnie 20 próbek</option>
+                    <option value="50">Ostatnie 50 próbek</option>
+                    <option value="100">Ostatnie 100 próbek</option>
+                </select>
+                <button class="button" onclick="saveSettings()" style="margin-top: 10px;">
+                    Zapisz ustawienia
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="dashboard">
+        <div class="summary-card">
+            <div class="summary-label">Łączna moc</div>
+            <div id="total-power" class="summary-value">0 W</div>
+        </div>
+        <div class="summary-card">
+            <div class="summary-label">Liczba GPU</div>
+            <div id="gpu-count" class="summary-value">0</div>
+        </div>
+        <div class="summary-card">
+            <div class="summary-label">Średnia temperatura</div>
+            <div id="avg-temp" class="summary-value">0°C</div>
+        </div>
+    </div>
+
+    <!-- Wykresy -->
+    <div class="charts-container" id="charts-container">
+        <!-- Wykresy będą dodawane dynamicznie -->
+    </div>
+
+    <!-- Karty GPU -->
+    <div id="gpu-container" class="gpu-container"></div>
+
+    <!-- Skrypty -->
+    <script src="/static/script.js"></script>
+</body>
+</html>
