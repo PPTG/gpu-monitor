@@ -204,8 +204,8 @@ Propozycje zmian i zgłoszenia błędów są mile widziane! Możesz:
 
 ## Acknowledgments / Podziękowania
 
-This project uses the following open source packages:
-Ten projekt wykorzystuje następujące pakiety open source:
+This project uses the following packages:
+Ten projekt wykorzystuje następujące pakiety:
 
 - [Flask](https://flask.palletsprojects.com/) - BSD License
 - [Chart.js](https://www.chartjs.org/) - MIT License
