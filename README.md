@@ -184,6 +184,23 @@ docker run --gpus all -p 5000:5000 gpu-monitor
   - Font Awesome
   - Vanilla JavaScript
 
+## License / Licencja
+MIT License
+
+## Acknowledgments / Podziękowania
+
+This project uses the following open source packages:
+Ten projekt wykorzystuje następujące pakiety open source:
+
+- [Flask](https://flask.palletsprojects.com/) - BSD License
+- [Chart.js](https://www.chartjs.org/) - MIT License
+- [Font Awesome](https://fontawesome.com/) - MIT License (Free version)
+- [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-docker) - Apache License 2.0
+
+For GPU monitoring, this software uses NVIDIA System Management Interface (nvidia-smi) which is part of the NVIDIA Display Driver. Use of nvidia-smi is subject to the NVIDIA Driver License.
+
+Do monitorowania GPU, oprogramowanie wykorzystuje NVIDIA System Management Interface (nvidia-smi), który jest częścią sterownika NVIDIA Display Driver. Użycie nvidia-smi podlega licencji sterownika NVIDIA.
+
 ## Contributing / Rozwój projektu
 
 Issues and pull requests are welcome! Feel free to:
