@@ -37,7 +37,7 @@ Aplikacja webowa do monitorowania parametrów kart graficznych NVIDIA w czasie r
 
 1. Sklonuj repozytorium:
 ```bash
-git clone https://github.com/yourusername/gpu-monitor.git
+git clone https://github.com/PPTG/gpu-monitor.git
 cd gpu-monitor
 ```
 
@@ -116,7 +116,7 @@ A web application for real-time monitoring of NVIDIA GPU parameters. Provides a 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/gpu-monitor.git
+git clone https://github.com/PPTG/gpu-monitor.git
 cd gpu-monitor
 ```
 
