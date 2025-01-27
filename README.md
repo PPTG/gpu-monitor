@@ -44,9 +44,7 @@ cd gpu-monitor
 2. Utwórz i aktywuj wirtualne środowisko (opcjonalnie):
 ```bash
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# lub
-.\venv\Scripts\activate  # Windows
+source venv/bin/activate  # Linux
 ```
 
 3. Zainstaluj zależności:
@@ -125,9 +123,7 @@ cd gpu-monitor
 2. Create and activate virtual environment (optional):
 ```bash
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# or
-.\venv\Scripts\activate  # Windows
+source venv/bin/activate  # Linux
 ```
 
 3. Install dependencies:
