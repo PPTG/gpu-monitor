@@ -1,5 +1,5 @@
 # Docker_GPUs_Monitor
-![Docker_GPUs_Monitor](./images/screen.png)
+![Docker_GPUs_Monitor](images/screen.png)
 
 [English](#english) | [Polski](#polski)
 
