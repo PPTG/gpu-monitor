@@ -1,4 +1,5 @@
 # Docker_GPUs_Monitor
+![GPU Monitor Dashboard](./images/screen.png)
 
 [English](#english) | [Polski](#polski)
 
